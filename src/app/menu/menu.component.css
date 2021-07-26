@@ -1,0 +1,85 @@
+/* Configuring navbar */
+.navbar {
+    background-color: rgb(52, 52, 136);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul.navbar-ul{
+    list-style-type: none;
+}
+li.navbar-li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+nav.navbar a{
+    color: white;
+    text-decoration: none;
+}
+nav.navbar a:hover{
+    color: rgb(23, 2, 51);
+    text-decoration: none;
+}
+div.menu-line {
+    width: 20px;
+    height: 20px;
+}
+.brand {
+    display: block;
+}
+
+/* Mobile menu isn't going to be shown in desktops web browsers */
+.menu {
+    display: none;
+}
+
+li.especial-button {
+    background: #88024b;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+span.divider {
+    font-size: 20px;
+    padding: 14px;
+}
+/* When the screen is resized to a mobile compatible resolution, then the mobile menu is shown */
+@media all and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+    }
+    ul.navbar-ul{
+        width: 100%;
+        list-style-type: none;
+    }
+    li.navbar-li {
+        display: block;
+        padding: 15px;
+        border-top: 1px solid white;
+        text-align: center;
+    }
+    .active {
+        display: block;
+    }
+    .inactive {
+        display: none;
+    }
+    span.divider {
+        display: none;
+    }
+    .menu{
+        display: block; 
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+    .brand {
+        width: 100%;
+        margin:18px;
+        padding-left: 20px;
+    }
+    li.especial-button {
+        border-radius: 0;
+    }
+}

@@ -1,0 +1,15 @@
+<nav class="navbar">
+    <div class="brand">PokéDex Online</div>
+    <ul class="navbar-ul" [ngClass]="{'active': clickedMenuButton, 'inactive': !clickedMenuButton}">
+        <li class="navbar-li"><a>Sobre</a></li>
+        <span class="divider">|</span>
+        <li class="navbar-li"><a>Buscar</a></li>
+        <span class="divider">|</span>
+        <li class="navbar-li especial-button"><a>Listar</a></li>
+    </ul>
+
+    <div class="menu" id="toggle" (click)="toggleMenu()">
+        <i class="material-icons">menu</i>
+        <!-- <img src="././assets/menu_white_24dp.svg"> -->
+    </div>
+</nav>
