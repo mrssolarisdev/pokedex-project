@@ -1,12 +1,13 @@
 /* Configuring navbar */
 .navbar {
-    background-color: rgb(52, 52, 136);
+    background-color: rgba(82, 82, 150, 0);
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 ul.navbar-ul{
     list-style-type: none;
@@ -37,8 +38,8 @@ div.menu-line {
 }
 
 li.especial-button {
-    background: #88024b;
-    padding: 10px;
+    background: var(--especial-button-color);
+    padding: 4px 20px;
     border-radius: 14px;
 }
 
