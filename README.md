@@ -16,8 +16,10 @@ Pokedex Project is a single page web application developed using Angular. In thi
 
 <br />
 <br />
+
 ## Mobile View
-![alt text](Screenshots/homepage-md.png?raw=true "Mobile WebBrowser")
+![alt text](Screenshots/homepage-sm.png?raw=true "Mobile WebBrowser")
+
 ## Authors
 
 * [**Marcela Braga Bahia**](https://github.com/mrssolarisdev)
