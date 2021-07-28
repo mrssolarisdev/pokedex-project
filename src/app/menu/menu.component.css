@@ -1,6 +1,6 @@
 /* Configuring navbar */
 .navbar {
-    background-color: rgba(82, 82, 150, 0);
+    background-color: rgba(82, 82, 150, 0.103);
     color: white;
     display: flex;
     justify-content: space-around;

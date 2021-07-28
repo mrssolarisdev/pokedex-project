@@ -1,32 +1,4 @@
-/* div.home-2{
-    padding: 50px;
-    background: #140b29;
-    background-size: cover;
-    width: 100%;
-}
 
-.left h4 {
-    font-size: 64px;
-    padding: 30px;
-}
-.left ul {
-    font-size: 34px;
-    padding-left: 10%;
-}
-.left li {
-    padding: 26px;
-}
-.container {
-    width: 60%;
-}
-@media all and (max-width: 480px) {
-    .container {
-        width: 100%;
-    }
-    .left h4 {
-        font-size: 34px;
-    }
-} */
 *{
     box-sizing: border-box;
 }
@@ -86,5 +58,9 @@ div:nth-child(2) {
     .img {
         width: 200px;
         top: 0px;
+    }
+    .listPerks li {
+        padding-bottom: 28px;
+        font-size: 15px;
     }
 }

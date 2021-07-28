@@ -1,0 +1,77 @@
+<!-- <div class="footer">
+    <div class="parent">
+        Division between the two sides of the footer
+        <div class="child">
+            <p class="project-content"><img src="../../../assets/images/project-icon.png" class="logo-project"> <b class="title-project">Visio Project - PokéDex</b></p>
+            <div class="" style="display: flex;">
+                Another division between the two sides of the first section of the footer
+                <div class="child">
+                    <ul class="data">
+                        <li *ngFor="let data of addressData">
+                            {{ data }}
+                        </li>
+                    </ul>                  
+                </div>
+                
+                <span class="divider">|</span>
+                <br class="dividerHorizontal"/>
+            
+                <div class="child">
+                    <ul class="data">
+                        <li *ngFor="let data of contactData">
+                            {{ data }}
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+        </div>
+
+
+        <div class="child">
+           other sidedhsuiadhsuiadhuisahduisahdui
+        </div>
+    </div>
+    
+</div> -->
+
+
+<footer>
+    <div class="container">
+        <div class="sec sec1">
+            <h2 class="abt"><img src="../../../assets/images/project-icon.png" width="40px" style="position: relative; top: 10px;">About</h2>
+            <p class="about">
+                {{ speechData }}
+            </p>
+            
+            <ul class="sci">
+                <li><a><img src="../../../assets/images/fb.png"></a></li> 
+                <li><a><img src="../../../assets/images/insta.png"></a></li> 
+                <li><a><img src="../../../assets/images/tt.png"></a></li> 
+                <li><a><img src="../../../assets/images/be.png"></a></li> 
+            </ul>
+        </div>
+        
+        <div class="sec quicklinks">
+            <h2 class="abt">Informações de contato</h2>
+            <ul class="info">
+                <li *ngFor="let contato of contactData">
+                    {{ contato }}
+                </li>
+                <br/>
+                <li *ngFor="let data of addressData">
+                    {{ data }}
+                </li>
+            </ul>
+        </div>
+
+        <div class="sec contact">
+            <h2 class="">Atribuições</h2>
+            <p>Desenvolvido por: <img src="../../../assets/images/banana.png" class="bananaImage">BananaSplit Solutions</p>
+        </div>
+
+    </div>
+</footer>
+
+<div>
+    <p class="copyrightText">Copyright 2021 <img src="../../../assets/images/banana.png" class="bananaImage"> BananaSplit Productions. All Rights Reserved</p>
+</div>

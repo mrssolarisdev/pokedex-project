@@ -5,16 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
 import { MenuComponent } from './menu/menu.component';
+import { SearchbarModule } from './searchbar/searchbar.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    SearchbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

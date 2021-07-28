@@ -1,0 +1,28 @@
+.home-3{
+    background-image: url('../../../assets/images/section3-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    height: 1100px;
+    padding: 20px;
+}
+.pokebuscaHeader {
+    position: relative;
+    top: 200px;
+    color: white;
+    padding-left: var(--default-home-padding-left);
+    font-size: 64px;
+}
+.pokebuscaComment {
+    position: relative;
+    top: 200px;
+    color: white;
+    padding-left: var(--default-home-padding-left);
+    font-size: 28px;
+}
+.searchbar-home{
+    position: relative;
+    top: 240px;
+    padding-left: var(--default-home-padding-left);
+}

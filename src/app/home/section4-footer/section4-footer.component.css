@@ -1,0 +1,128 @@
+@import '~material-design-icons/iconfont/material-icons.css';
+body {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #ede7f6;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    overflow: hidden;
+}
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+footer .container .sec {
+    margin-right: 30px;
+}
+
+footer .container .sec.sec1 {
+    width: 40%;
+}
+.abt {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer p {
+    color: #999;
+}
+.sci {
+    margin-top: 20px;
+    display: flex;
+}
+.sci li {
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(34, 34, 34, 0);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.sci li a:hover{
+    color: #f00;
+}
+.quicklinks {
+    position: relative;
+    width: 25%;
+}
+.quicklinks ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.quicklinks ul li {
+    list-style: none;
+}
+.quicklinks ul li a:hover {
+    color: #f00;
+}
+.contact .info {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .info li span {
+    color: #999;
+}
+.copyrightText {
+    width: 100%;
+    background: #181818;
+    padding: 8px 100px;
+    text-align: center;
+    color: rgb(187, 187, 187);
+}
+
+.bananaImage {
+    width: 30px;
+    position: relative;
+    top: 10px;
+}
+@media (max-width: 991px) {
+    footer {
+        padding: 40px;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    footer .container .sec {
+        margin-bottom: 40px;
+    }
+    footer .container .sec.sec1, .quicklinks,.contact {
+        width: 100%;
+    }
+    .copyrightText {
+        padding: 8px 40px;
+    }
+}
